@@ -2,5 +2,5 @@
 
 ## Python
 ```
-curl -L https://raw.githubusercontent.com/yn-git/init-script/python/init.sh | bash -s
+curl -L https://raw.githubusercontent.com/yn-git/init-script/master/python/init.sh | bash -s
 ```
