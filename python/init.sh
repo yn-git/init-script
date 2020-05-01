@@ -10,9 +10,13 @@ poetry add -D \
 # delete auto made files and directory.
 rm -r src/project
 rm tests/test_project.py
+mv README.rst README.md
 
 # make gitignore
 curl https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore > .gitignore
-
 # make pytest.ini
 curl https://raw.githubusercontent.com/yn-git/init-script/master/python/pytest.ini > pytest.ini
+# make pyrightconfig.json
+curl https://raw.githubusercontent.com/yn-git/init-script/master/python/pyrightconfig.json > pyrightconfig.json 
+
+git init
