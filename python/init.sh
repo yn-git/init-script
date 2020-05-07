@@ -13,10 +13,10 @@ rm tests/test_project.py
 mv README.rst README.md
 
 # make gitignore
-curl https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore > .gitignore
+wget -O - https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore > .gitignore
 # make pytest.ini
-curl https://raw.githubusercontent.com/yn-git/init-script/master/python/pytest.ini > pytest.ini
+wget -O - https://raw.githubusercontent.com/yn-git/init-script/master/python/pytest.ini > pytest.ini
 # make pyrightconfig.json
-curl https://raw.githubusercontent.com/yn-git/init-script/master/python/pyrightconfig.json > pyrightconfig.json 
+wget -O - https://raw.githubusercontent.com/yn-git/init-script/master/python/pyrightconfig.json > pyrightconfig.json 
 
 git init
