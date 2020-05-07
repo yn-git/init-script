@@ -6,7 +6,7 @@ Alpine Linux に wget が preinstall されているため，script 取得に wg
 
 ### alpine
 ```
-wget -O - https://raw.githubusercontent.com/yn-git/init-script/master/dev_env/alpine-init.sh | sh -s
+wget -O - https://raw.githubusercontent.com/yn-git/init-script/master/dev_env/alpine_init.sh | sh -s
 ```
 
 ## Language
