@@ -1,5 +1,8 @@
 #!/bin/bash
-# Note: Execute this script in working directory!
+# Note
+# Run this script in working directory as root user!
+
+pip install poetry
 
 # make python devenv for remote container
 poetry new --src `pwd`
