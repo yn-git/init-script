@@ -2,8 +2,6 @@
 # Note
 # Run this script in working directory as root user!
 
-pip install poetry
-
 # make python devenv for remote container
 poetry new --src `pwd`
 python -m venv .venv

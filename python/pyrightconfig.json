@@ -7,7 +7,8 @@
         "**/node_modules",
         "**/__pycache__",
         "**/.git",
-        "**/.pytest_cache"
+        "**/.pytest_cache",
+        "**/.venv"
     ],
     "venvPath": "/home/developer/project",
     "venv": ".venv",
